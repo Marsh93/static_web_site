@@ -11,7 +11,6 @@ import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';
 import '@fortawesome/fontawesome-free/js/brands';
 // importar imagenes
-import logoHtmlSVG from "../img/html-5.svg";
 import iconTitleDefault from "../img/student-icon-1.png";
 import iconTitleAlternativeOne from "../img/student-icon-2.png";
 import iconTitleAlternativeTwo from "../img/student-icon-3.png";
@@ -26,7 +25,6 @@ import wow from "wow.js";
 
 // importar función para mostrar el menu de navegación en móvil
 import actionMenu from "./show_menu_mobile";
-import print from 'print-js';
 // asignar logo al header
 const logo = document.getElementById( 'logo' );
 logo.setAttribute( 'src', iconLogoDevelopment );

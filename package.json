@@ -14,7 +14,6 @@
    "dependencies": {
       "bulma-carousel": "^4.0.4",
       "lodash": "^4.17.15",
-      "print-js": "^1.0.61",
       "wow.js": "^1.2.2"
    },
    "devDependencies": {
