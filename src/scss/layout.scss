@@ -1,0 +1,135 @@
+$color-html: hsl(14, 100%, 53%);
+$color-css: hsl(204, 86%, 53%);
+$color-js: hsl(48, 100%, 67%);
+$color-facebook: #4b66a0;
+$color-twitter: #1a91da;
+$color-youtube: #ff0000;
+
+// Sobreescribir la altura máxima de la imagen del navbar que bulma aplica por defecto
+a.navbar-item {
+   padding: .8em;
+   img {
+      max-height: 64px;
+      border-radius: 50%;
+   }
+   color: #E1E1E1;
+   &:hover {
+      background-color: #2776ee;
+      color: #E1E1E1;
+   }
+}
+
+// Sobreescribir estilo para que el icono (burguer) se aline verticalmente con el logo en móvil  
+.burger {
+   height: 5.6rem;
+}
+
+// background hero
+.banner-hero {
+   .title {
+      color: white;
+   }
+   .subtitle {
+      color: #E1E1E1;
+   }
+   background: {
+      repeat: no-repeat;
+      image: url('../img/fondo-banner3.jpg');
+      position: center;
+      attachment: fixed; 
+   }
+}
+
+.columns {
+   padding: 1em;
+}
+
+.title {
+   font-size: 2.5em;
+}
+
+.subtitle {
+   font-size: 1.5em;
+}
+
+// about
+.about {
+   color: #E1E1E1;
+   background-color: #e67e22;
+   .subtitle {
+      color: inherit;
+   }
+}
+
+.about__title {
+   padding: .5em 0;
+}
+
+.skills__img,
+.skills__slider {
+   border-radius: 50%;
+}
+
+.is_active {
+   background-color: #95a5a6;
+}
+
+.skills__two,
+.skills__three {
+   border-bottom: 1px solid #95a5a6;
+}
+
+.is-flex {
+   justify-content: center;
+   align-items: center;
+}
+
+.levels {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: -25px 0 0 0;
+}
+
+// Sobreescribiendo color del progress-bar
+.progress.is-html::-moz-progress-bar {
+   background-color: $color-html;
+}
+
+.progress.is-css::-moz-progress-bar {
+   background-color: $color-css;
+}
+
+.progress.is-js::-moz-progress-bar {
+   background-color: $color-js;
+}
+
+.contact {
+   margin: 1.5rem;
+   padding: 1.5em;
+}
+
+#resume {
+   height: 30rem; 
+   border: 1rem solid rgba(0,0,0,.1);
+}
+
+.is-facebook {
+   border: none;
+   background-color: $color-facebook;
+}
+
+.is-twitter {
+   border: none;
+   background-color: $color-twitter;
+}
+
+.is-youtube {
+   border: none;
+   background-color: $color-youtube;
+}
+
+.social__group {
+   justify-content: center;
+   align-items: center;
+}

@@ -1,0 +1,15 @@
+// import carousel component
+@import "../../node_modules/bulma-carousel/dist/css/bulma-carousel.min.css";
+
+.carousel__title {
+   border-bottom: 1px solid black;
+}
+
+.carousel__details {
+   padding: 1em;
+   border-right: 1px solid darkgrey; 
+}
+
+.last-details {
+   border-right: none;
+}
