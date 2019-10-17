@@ -10,7 +10,6 @@ require ( '../../node_modules/wow.js/css/libs/animate.css');
 import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';
 import '@fortawesome/fontawesome-free/js/brands';
-import '@fortawesome/fontawesome-free/js/regular';
 // importar imagenes
 import iconTitleDefault from "../img/student-icon-1.png";
 import iconTitleAlternativeOne from "../img/student-icon-2.png";
