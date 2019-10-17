@@ -62,9 +62,6 @@ function buildIconTitle( iconImg ) {
 
 buildIconTitle( iconTitleAlternativeThree );
 
-console.log( "Compilado nuevamente" );
-console.log( "Solo compila si cambio el js, html o css de la carpeta src" );
-
 const PDF = document.getElementById( 'printPDF' );
 PDF.setAttribute( 'href', cvPDF );
 PDF.setAttribute( 'target', '_blank' );

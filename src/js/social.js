@@ -1,10 +1,10 @@
-// importan libreria de terceros
+
 import _ from 'lodash';
-// importando estilos de bulma
+
 require( '../style.scss' );
 require( '../scss/layout.scss' );
 require( '../scss/social.scss' );
-// importar fontawesome
+
 import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';
 import '@fortawesome/fontawesome-free/js/brands';
@@ -13,9 +13,9 @@ import iconTitleAlternativeThree from "../img/student-icon-4.png";
 import iconLogoDevelopment from "../img/logo-development.png";
 import iconLogoSocialLg from "../img/social-1.jpg";
 import madeWithBulma from "../img/made-with-bulma--dark.png";
-// importar función para mostrar el menu de navegación en móvil
+
 import actionMenu from "./show_menu_mobile";
-// importar librería para animaciones
+
 import animate from "animate.css";
 import wow from "wow.js";
 
@@ -31,11 +31,10 @@ function buildIconTitle( iconImg ) {
 
 buildIconTitle( iconTitleAlternativeThree );
 
-// asignar logo al header
+
 const logo = document.getElementById( 'logo' );
 logo.setAttribute( 'src', iconLogoDevelopment );
 
-// Asignar logos a pagina social.html
 const socialImgA = document.getElementById( 'social-img-lg' );
 socialImgA.setAttribute( 'src', iconLogoSocialLg );
 
@@ -48,6 +47,5 @@ socialImgC.setAttribute( 'src', iconLogoSocialLg );
 const logoBulma = document.getElementById( 'made-with-bulma' );
 logoBulma.setAttribute( 'src', madeWithBulma );
 
-// Utilizar animaciones
 const wowjs = new wow();
 wowjs.init();
